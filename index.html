@@ -1,114 +1,242 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2113.65">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
-    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Geeza Pro'}
-    span.s1 {font: 12.0px Helvetica}
-    span.s2 {font: 12.0px 'Zapf Dingbats'}
-    span.s3 {font: 12.0px 'Apple Color Emoji'}
-    span.s4 {font: 12.0px 'Geeza Pro'}
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎭 مفاجأة لصديقي! 🤣</title>
+    <style>
+        /* إعدادات عامة */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Cairo', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+            color: white;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            text-align: center;
+            direction: rtl;
+        }
+        
+        .container {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 30px;
+            padding: 40px;
+            max-width: 800px;
+            width: 100%;
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.3);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            margin: 20px;
+            animation: fadeIn 1s ease-out;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .emoji {
+            font-size: 100px;
+            margin: 20px 0;
+            animation: bounce 2s infinite, rotate 4s infinite linear;
+        }
+        
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0) rotate(0deg); }
+            50% { transform: translateY(-30px) rotate(10deg); }
+        }
+        
+        @keyframes rotate {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        h1 {
+            font-size: 48px;
+            margin-bottom: 30px;
+            color: #ffd93d;
+            text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
+        }
+        
+        .message-box {
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 20px;
+            padding: 30px;
+            margin: 30px 0;
+            border-right: 8px solid #ff6b6b;
+            text-align: right;
+            line-height: 1.8;
+        }
+        
+        .message-box p {
+            font-size: 22px;
+            margin-bottom: 15px;
+        }
+        
+        .highlight {
+            color: #ffd93d;
+            font-weight: bold;
+            font-size: 24px;
+        }
+        
+        .buttons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            margin-top: 30px;
+            flex-wrap: wrap;
+        }
+        
+        button {
+            background: linear-gradient(90deg, #ff6b6b, #ff8e53);
+            color: white;
+            border: none;
+            padding: 18px 35px;
+            font-size: 20px;
+            border-radius: 50px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: all 0.3s;
+            min-width: 200px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+        
+        button:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+        }
+        
+        button:active {
+            transform: translateY(-2px);
+        }
+        
+        .btn-joke {
+            background: linear-gradient(90deg, #4ecdc4, #44a08d);
+        }
+        
+        .btn-surprise {
+            background: linear-gradient(90deg, #8a2387, #f27121);
+        }
+        
+        .footer {
+            margin-top: 40px;
+            font-size: 16px;
+            color: rgba(255, 255, 255, 0.8);
+        }
+        
+        /* تصميم للجوال */
+        @media (max-width: 768px) {
+            h1 { font-size: 36px; }
+            .emoji { font-size: 70px; }
+            .message-box p { font-size: 18px; }
+            button { min-width: 160px; padding: 15px 25px; }
+            .container { padding: 25px; }
+        }
+        
+        @media (max-width: 480px) {
+            h1 { font-size: 28px; }
+            .emoji { font-size: 50px; }
+            .buttons { flex-direction: column; }
+            button { width: 100%; }
+        }
+    </style>
+    
+    <!-- خط عربي -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-<p class="p1">&lt;!DOCTYPE html&gt;</p>
-<p class="p1">&lt;html lang="ar"&gt;</p>
-<p class="p1">&lt;head&gt;</p>
-<p class="p1">&lt;meta charset="UTF-8"&gt;</p>
-<p class="p1">&lt;title&gt;System Access&lt;/title&gt;</p>
-<p class="p1">&lt;style&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>body {</p>
-<p class="p1"><span class="Apple-converted-space">        </span>background: black;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>color: #00ff00;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>font-family: monospace;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>direction: rtl;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>text-align: right;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>padding: 20px;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>.cursor {</p>
-<p class="p1"><span class="Apple-converted-space">        </span>display: inline-block;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>width: 10px;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>background: #00ff00;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>animation: blink 1s infinite;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>@keyframes blink {</p>
-<p class="p1"><span class="Apple-converted-space">        </span>50% { background: transparent; }</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>.big-text {</p>
-<p class="p1"><span class="Apple-converted-space">        </span>font-size: 40px;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>font-weight: bold;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>text-align: center;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>margin-top: 30px;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>animation: zoom 0.4s ease-in-out;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>@keyframes zoom {</p>
-<p class="p1"><span class="Apple-converted-space">        </span>from {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>transform: scale(0.3);</p>
-<p class="p1"><span class="Apple-converted-space">            </span>opacity: 0;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>to {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>transform: scale(1);</p>
-<p class="p1"><span class="Apple-converted-space">            </span>opacity: 1;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1">&lt;/style&gt;</p>
-<p class="p1">&lt;/head&gt;</p>
-<p class="p1">&lt;body&gt;</p>
-<p class="p2"><br></p>
-<p class="p3"><span class="s1">&lt;h3&gt;</span>جاري<span class="s1"> </span>اختراق<span class="s1"> </span>الجهاز<span class="s1">...&lt;/h3&gt;</span></p>
-<p class="p1">&lt;div id="terminal"&gt;&lt;/div&gt;</p>
-<p class="p1">&lt;span class="cursor"&gt;&amp;nbsp;&lt;/span&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;script&gt;</p>
-<p class="p1">const friendName = "Alaa";</p>
-<p class="p1">const email = "alaaseleem@gamil.com";</p>
-<p class="p2"><br></p>
-<p class="p1">const lines = [</p>
-<p dir="rtl" class="p3"><span class="s1"><span class="Apple-converted-space">    </span>"</span>تم<span class="s1"> </span>الاتصال<span class="s1"> </span>بالجهاز<span class="s1"> </span>بنجاح<span class="s1"> </span><span class="s2">✔</span><span class="s1">",</span></p>
-<p dir="rtl" class="p3"><span class="s1"><span class="Apple-converted-space">    </span>"</span>جاري<span class="s1"> </span>تجاوز<span class="s1"> </span>نظام<span class="s1"> </span>الحماية<span class="s1">...",</span></p>
-<p dir="rtl" class="p3"><span class="s1"><span class="Apple-converted-space">    </span>"</span>تم<span class="s1"> </span>فتح<span class="s1"> </span>الجلسة<span class="s1"> </span><span class="s3">🔓</span><span class="s1">",</span></p>
-<p dir="rtl" class="p1"><span class="Apple-converted-space">    </span>`<span class="s4">اسم</span> <span class="s4">المستخدم</span>: ${friendName}`,</p>
-<p dir="rtl" class="p3"><span class="s1"><span class="Apple-converted-space">    </span>"</span>جاري<span class="s1"> </span>فحص<span class="s1"> </span>الحسابات<span class="s1"> </span>المرتبطة<span class="s1">...",</span></p>
-<p dir="rtl" class="p3"><span class="s1"><span class="Apple-converted-space">    </span>"</span>تم<span class="s1"> </span>العثور<span class="s1"> </span>على<span class="s1"> </span>بريد<span class="s1"> </span>إلكتروني<span class="s1"> </span><span class="s3">📧</span><span class="s1">",</span></p>
-<p class="p1"><span class="Apple-converted-space">    </span>`Email: ${email}`,</p>
-<p dir="rtl" class="p3"><span class="s1"><span class="Apple-converted-space">    </span>"</span>جاري<span class="s1"> </span>سحب<span class="s1"> </span>البيانات<span class="s1">...",</span></p>
-<p dir="rtl" class="p1"><span class="Apple-converted-space">    </span>"<span class="s4">تحميل</span> 32%...",</p>
-<p dir="rtl" class="p1"><span class="Apple-converted-space">    </span>"<span class="s4">تحميل</span> 67%...",</p>
-<p dir="rtl" class="p1"><span class="Apple-converted-space">    </span>"<span class="s4">تحميل</span> 89%...",</p>
-<p dir="rtl" class="p1"><span class="Apple-converted-space">    </span>"<span class="s4">اكتمل</span> <span class="s4">التحميل</span> 100% <span class="s3">✅</span>"</p>
-<p class="p1">];</p>
-<p class="p2"><br></p>
-<p class="p1">let i = 0;</p>
-<p class="p1">const terminal = document.getElementById("terminal");</p>
-<p class="p2"><br></p>
-<p class="p1">function typeLine() {</p>
-<p class="p1"><span class="Apple-converted-space">    </span>if (i &lt; lines.length) {</p>
-<p class="p1"><span class="Apple-converted-space">        </span>terminal.innerHTML += lines[i] + "&lt;br&gt;";</p>
-<p class="p1"><span class="Apple-converted-space">        </span>i++;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>setTimeout(typeLine, 900);</p>
-<p class="p1"><span class="Apple-converted-space">    </span>} else {</p>
-<p class="p1"><span class="Apple-converted-space">        </span>setTimeout(showFinalMessage, 800);</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">function showFinalMessage() {</p>
-<p class="p1"><span class="Apple-converted-space">    </span>terminal.innerHTML += `&lt;div class="big-text"&gt;<span class="s4">الزوز</span> <span class="s4">بيمسي</span> <span class="s4">عليك</span> <span class="s3">😈</span>&lt;/div&gt;`;</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">typeLine();</p>
-<p class="p1">&lt;/script&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;/body&gt;</p>
-<p class="p1">&lt;/html&gt;</p>
+    <div class="container">
+        <!-- الرموز المتحركة -->
+        <div class="emoji">🎭🤣🎁</div>
+        
+        <!-- العنوان الرئيسي -->
+        <h1>هاهاها! وقعت في الفخ يا صاحبي! 🕸️</h1>
+        
+        <!-- رسالة الدعابة -->
+        <div class="message-box">
+            <p>🙋‍♂️ <span class="highlight">يا أهلاً وسهلاً!</span></p>
+            <p>كنت أتسلى وأفكر إزاي أسليك وأعمل لك مفاجأة!</p>
+            <p>فقلت أعمل لك موقع وهمي علشان أضحك معاك شوية! 😄</p>
+            <p>📱 <span class="highlight">معلش يا روح يا ظريف</span>، دي كانت دعابة بريئة!</p>
+            <p>❤️ <span class="highlight">الحقيقة:</span> إنك صديق رائع وأنا محظوظ بصداقتك! 🤗</p>
+        </div>
+        
+        <!-- الأزرار -->
+        <div class="buttons">
+            <button class="btn-joke" onclick="showJoke()">🎭 اضغط للدعابة</button>
+            <button class="btn-surprise" onclick="showSurprise()">🎁 اضغط للمفاجأة</button>
+        </div>
+        
+        <!-- الرسالة الختامية -->
+        <div class="footer">
+            <p>🚨 <strong>ملاحظة:</strong> هذا موقع دعابة فقط، لا تقلق! 🚨</p>
+            <p>من: صديقك اللي بيحب المزاح الحلو 🥰</p>
+        </div>
+    </div>
+
+    <script>
+        // رسالة ترحيب تلقائية
+        window.onload = function() {
+            setTimeout(function() {
+                alert('🎊 ياهووو! لقد اكتشفت موقع الدعابة السري!\n\nأتمنى تكون ضحكت معايا يا صاحبي! 😂');
+            }, 1500);
+        };
+        
+        // زر الدعابة
+        function showJoke() {
+            alert('🤣 الدعابة الحقيقية!\n\nإنك تعبتني شوية في البرمجة علشان أسليك!\n\nبس علشانك تستاهل! 😉');
+            
+            // تأثيرات مضحكة
+            const emoji = document.querySelector('.emoji');
+            emoji.innerHTML = '😂🤪😭';
+            emoji.style.animation = 'none';
+            setTimeout(() => {
+                emoji.style.animation = 'bounce 2s infinite, rotate 4s infinite linear';
+                emoji.innerHTML = '🎭🤣🎁';
+            }, 2000);
+            
+            // تغيير الخلفية
+            document.body.style.background = 'linear-gradient(135deg, #ff6b6b 0%, #4ecdc4 100%)';
+        }
+        
+        // زر المفاجأة
+        function showSurprise() {
+            alert('🎉 المفاجأة الحقيقية هي:\n\nأنك صديق رائع وروح ظريفة!\n\nوشكراً لأنك بتقبل المزاح وتضحك معايا! 💖\n\nوالله يخليك يا صاحبي! 🤗');
+            
+            // تأثيرات جميلة
+            const container = document.querySelector('.container');
+            container.innerHTML += `
+                <div style="margin-top: 40px; padding: 20px; background: rgba(255,255,255,0.2); border-radius: 15px;">
+                    <p style="font-size: 24px; color: #ffd93d;">🎈🎊🥳</p>
+                    <p style="font-size: 20px; margin-top: 10px;">الله يخليك يا صاحبي وتفضل دايماً ظريف كده! 🌟</p>
+                </div>
+            `;
+            
+            // أغنية صغيرة (إذا كان الصوت مفعل)
+            try {
+                const audio = new Audio('https://assets.mixkit.co/sfx/preview/mixkit-cartoon-toy-whistle-409.mp3');
+                audio.volume = 0.3;
+                audio.play();
+            } catch (e) {
+                console.log("لا يمكن تشغيل الصوت");
+            }
+        }
+        
+        // تأثيرات إضافية عند التمرير
+        document.addEventListener('mousemove', function(e) {
+            const x = (window.innerWidth - e.pageX) / 50;
+            const y = (window.innerHeight - e.pageY) / 50;
+            document.querySelector('.emoji').style.transform = `translate(${x}px, ${y}px)`;
+        });
+    </script>
 </body>
 </html>
